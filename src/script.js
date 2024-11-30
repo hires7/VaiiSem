@@ -15,7 +15,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     }
   
     const message = document.getElementById('message');
-    if (message.value.length < 10) {
+    if (message.value.length < 5) {
       valid = false;
       alert('Správa musí mať aspoň 10 znakov.');
     }
